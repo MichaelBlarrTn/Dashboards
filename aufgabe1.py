@@ -17,6 +17,9 @@ st.sidebar.title("Menue")
 st.sidebar.link_button(label="Etwas Entspannung", url="http://www.youtube.de")
 st.sidebar.link_button(label="Chef Button", url="http://www.markdown.de")
 
+st.balloons()
+
+
 
 
         
