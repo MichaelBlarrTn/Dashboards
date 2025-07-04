@@ -30,7 +30,7 @@ indices = selected["selection"]["point_indices"]
 
 with col2:
     if not indices:
-        st.info("Klicke auf die Obstsorte im Diagramm, um mehr zu erfahren.")
+        st.info("Für mehr Informationen Obstsorte anklicken")
     else:
         obst = df.iloc[indices[0]]
         st.subheader(f"Details zu {obst.Icon} {obst.Obst}")
